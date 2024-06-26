@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Geo Finder",
+    "slug": "Geo-Findeer",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B1E23"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "backgroundColor": "#1B1E23"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1B1E23",
+        "notification": {
+          "channelId": "saved-values"
+        }
+      },
+      "package": "com.geomaps1.geomapsfinder1",
+      "versionCode": 3
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5afca46b-5dba-4075-93bb-0ecd8df8a5b6"
+      }
+    }
+  }
+}
